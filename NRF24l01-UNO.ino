@@ -97,7 +97,7 @@ int getState(unsigned short pin){
 void doAction(unsigned short id, unsigned short action){
 
     if (id == 8){
-      if( action == 0 ){
+      if( action == 1 ){
           digitalWrite(id, HIGH);
       }else{
           digitalWrite(id, LOW);
